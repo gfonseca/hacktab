@@ -4,7 +4,7 @@ WORKDIR /root/
 
 ENV TTYD_PORT=7681
 
-RUN apk update & \
+RUN apk update && \
 apk add --no-cache nmap ttyd bash curl wget iputils wireshark hydra bind-tools tor proxychains-ng && \
 rm -rf /var/cache/apk/*
 
