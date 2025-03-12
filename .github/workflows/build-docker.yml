@@ -28,3 +28,11 @@ jobs:
     - name: Push Docker image to Docker Hub
       run: |
         docker push gfonseca/hacktab:latest
+
+    - name: Build Docker image for Raspberry Pi
+      run: |
+        docker build --platform linux/arm/v7 -t hacktab:latest-rpi .
+
+    - name: Push Docker image for Raspberry Pi
+      run: |
+        docker push gfonseca/hacktab:latest-rpi .
