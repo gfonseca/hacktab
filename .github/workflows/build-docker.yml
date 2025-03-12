@@ -23,10 +23,8 @@ jobs:
 
     - name: Build Docker image
       run: |
-        VERSION=${GITHUB_REF#refs/tags/}
-        docker build -t gfonseca/hacktab:$VERSION .
+        docker build -t hacktab .
 
     - name: Push Docker image to Docker Hub
       run: |
-        VERSION=${GITHUB_REF#refs/tags/}
-        docker push gfonseca/hacktab:$VERSION
+        docker push gfonseca/hacktab:lateest
