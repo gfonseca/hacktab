@@ -1,5 +1,7 @@
 # HACKTAB  
 
+![i](https://raw.githubusercontent.com/gfonseca/hacktab/refs/heads/main/assets/logo.png)
+
 This image is designed to be a Swiss Army knife loaded with tools for penetration testing and anonymity, all accessible from a browser tab. Just run the container:  
 
 ## How to Run  
