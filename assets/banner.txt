@@ -9,28 +9,29 @@
 ░░░░░   ░░░░░ ░░░░░   ░░░░░   ░░░░░░░░░  ░░░░░   ░░░░    ░░░░░    ░░░░░   ░░░░░ ░░░░░░░░░░░  
 
 
+
 ░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█
   
    Author: Georgio Barbosa @gfonseca georgio.barbosa@gmail.com
    Date: 2025-03-11
    Copyright (c) 2025 Georgio Barbosa. All rights reserved.  
 
-   This container is focused on penetration testing tools and minimalism.  
+   This project is focused on penetration testing and minimal image.
+   (Under construction)
    Feel free to contribute at: https://github.com/gfonseca/hacktab
    ------------------------------------------------------------  
-   Powered by: Alpine Linux | ttyd | Zsh | Oh My Zsh | 
+   Powered by: Alpine Linux | ttyd | bash | tor | proxychains
 
 ░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█
 \033[0m
 
 
 \033[1;93m
-Tor status:
-🟢 = running
-🔴 = stopped
-(use tor-start and tor-stop to toggle)
+Cloak status:
+🟢 = active
+🔴 = inactive
+(use cloak-start and cloak-stop to toggle)
 \033[0m
-
 
 
 
