@@ -23,7 +23,7 @@ jobs:
 
     - name: Build Docker image
       run: |
-        docker build -t hacktab .
+        docker build -t hacktab:latest .
 
     - name: Push Docker image to Docker Hub
       run: |
