@@ -23,7 +23,7 @@ jobs:
 
     - name: Build Docker image
       run: |
-        docker build -t hacktab:latest .
+        docker build -t gfonseca/hacktab:latest .
 
     - name: Push Docker image to Docker Hub
       run: |
