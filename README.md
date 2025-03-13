@@ -27,7 +27,7 @@ $ cloak-stop
 ```  
 
 ## Available Tools  
-*(This image is still in active development—new tools are being added gradually.)*  
+*(This image is still in active development new tools are being added gradually.)*  
 
 - wireshark  
 - hydra
