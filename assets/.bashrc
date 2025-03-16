@@ -55,6 +55,8 @@ alias l='ls -CF'
 # tor aliases
 alias tor-start='tor > /dev/null &'
 alias cloak-stop='exit'
+alias dns-leak-test="curl -L dnsleaktest.com | grep from"
+
 cloak-start() {
     export CLOAK_MODE=true
     proxychains bash

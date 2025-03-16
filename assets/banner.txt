@@ -11,7 +11,7 @@
 
 
 ░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█
-  
+
    Author: Georgio Barbosa @gfonseca georgio.barbosa@gmail.com
    Date: 2025-03-11
    Copyright (c) 2025 Georgio Barbosa. All rights reserved.  
@@ -22,6 +22,10 @@
    ------------------------------------------------------------  
    Powered by: Alpine Linux | ttyd | bash | tor | proxychains
 
+   🚨 Warning! This is a Docker container. Any content saved here 
+   will be lost when the container stops. To persist data, use Docker 
+   volumes or bind mounts. 🚨
+  
 ░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█░█
 \033[0m
 
@@ -30,7 +34,7 @@
 Cloak status:
 🟢 = active
 🔴 = inactive
-(use cloak-start and cloak-stop to toggle)
+   * Use cloak-start and cloak-stop to toggle anonymity.
 \033[0m
 
 
