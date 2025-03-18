@@ -12,6 +12,21 @@ $ docker run -d -p 7681:7681 gfonseca/hacktab
 
 Now, open your browser and go to **localhost:7681** and voilà! Your own Kali Linux-like terminal, running inside a browser tab.  
 
+
+## Docker compose
+```yaml
+services:
+  hacktab:
+    image: gfonseca/hacktab:latest
+    container_name: hacktab_container
+    network_mode: bridge
+    ports:
+      - "7681:7681"
+    environment:
+      - TTYD_PORT=7681
+    restart: unless-stopped
+```
+
 ## Cloak Mode  
 Cloak mode enables the Tor proxy, routing all traffic through a secure Tor tunnel. You can check the cloak mode status via icons: 🟢 (active) and 🔴 (inactive).  
 
@@ -38,3 +53,4 @@ $ cloak-stop
 - wget
 - dig
 - netstat
+- gobuster
